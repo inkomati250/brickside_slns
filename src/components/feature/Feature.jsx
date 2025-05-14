@@ -1,13 +1,16 @@
 import React from 'react';
 import './feature.css';
 
+const Feature = ({ title, text }) => (
+  <div className="gpt3__features-container__feature">
+    <div className="gpt3__features-container__feature-title">
+      <div />
+      <h1>{title}</h1>
+    </div>
+    <div className="gpt3__features-container_feature-text">
+      <p>{text}</p>
+    </div>
+  </div>
+);
 
-const  Feature = () => {
-    return(
-        <div>
-            Feature
-        </div>
-    )
-}
 export default Feature;
-// This component is a placeholder for the feature section of the application.
