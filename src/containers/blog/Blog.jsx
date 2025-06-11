@@ -4,9 +4,12 @@ import './blog.css';
 
 const Blog = () => {
   return (
-    <div>
-      <h1>Blog</h1>
-      <p>This is the blog page.</p>
+    <div className = "gpt3__blog section__padding" id ="blog">
+      <div className ="gpt3__blog-heading">
+        <h1 className ="gradient__text"></h1>
+
+      </div>
+
     </div>
   );
 }
