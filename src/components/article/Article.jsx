@@ -5,7 +5,7 @@ import './article.css';
 const Article = () => {
 
     return(
-        <div>
+        <div className>
             Article
         </div>
     )

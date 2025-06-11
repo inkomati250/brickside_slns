@@ -1,5 +1,5 @@
 import React from 'react';
-import {Article} from '../../components
+import { Article } from '../../components'; // Fixed the import statement
 import './blog.css';
 
 const Blog = () => {
@@ -11,17 +11,15 @@ const Blog = () => {
 
       <div className="gpt3__blog-container">
         <div className="gpt3__blog-container_groupA">
-
-         <Article/>
+          <Article />
         </div>
 
         <div className="gpt3__blog-container_groupB">
-          <Article/>
-          <Article/>
-          <Article/>
-          <Article/>
+          <Article />
+          <Article />
+          <Article />
+          <Article />
         </div>
-
       </div>
     </div>
   );
