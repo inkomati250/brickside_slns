@@ -10,10 +10,17 @@ const Blog = () => {
 
       <div className="gpt3__blog-container">
         <div className="gpt3__blog-container_groupA">
-          {/* You can add blog posts or content here */}
-          <h2>Blog Post Title</h2>
-          <p>This is a brief description of the blog post.</p>
+
+         Article
         </div>
+
+        <div className="gpt3__blog-container_groupB">
+          Article
+          Article
+          Article
+          Article
+        </div>
+
       </div>
     </div>
   );
