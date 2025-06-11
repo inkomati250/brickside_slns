@@ -5,9 +5,10 @@ import './article.css';
 const Article = () => {
 
     return(
-        <div className>
-            Article
-        </div>
+        <div className =gpt3__blog-container_article>
+          <div className ="gpt3__blog-container_article-image">
+            </div>
+        <div/>
     )
 }
 
